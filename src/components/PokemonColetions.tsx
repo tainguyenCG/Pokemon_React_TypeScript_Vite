@@ -1,7 +1,8 @@
 import React from "react";
-import type { Pokemon, PokemonDetail } from "../interface";
+import type { PokemonDetail } from "../interface";
 import PokemonList from "./PokemonList";
 import "./Pokemon.css";
+import type { Detail } from "../interface";
 
 interface Props {
   pokemons: PokemonDetail[];

@@ -2,17 +2,14 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
 import PokemonColetions from "./components/PokemonColetions";
-import type { Pokemon } from "./interface";
+import type { Detail, Pokemon } from "./interface";
 
 interface Pokemons {
   name: string;
   url: string;
 }
 
-export interface Detail {
-  id: number;
-  isOpened: boolean;
-}
+
 
 const App: React.FC = () => {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]); // do là mảng nên <string[]>,<Pokemon[]>

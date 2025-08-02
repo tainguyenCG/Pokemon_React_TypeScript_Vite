@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Pokemon.css";
+import type { Detail } from "../interface";
+
 
 interface Props {
   viewDetail: Detail;

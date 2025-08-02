@@ -12,3 +12,7 @@ export interface PokemonDetail extends Pokemon{
     name: string ;
   }[];
 }
+export interface Detail {
+  id: number;
+  isOpened: boolean;
+}
